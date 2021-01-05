@@ -85,7 +85,7 @@ document.querySelector(".btn-hold").addEventListener("click", function () {
         .querySelector(".player-" + activePlayer + "-panel")
         .classList.remove("active");
     } else {
-      switchToNextPlayer;
+      switchToNextPlayer();
     }
   } else {
     alert("ene toglolt duussan bna ta New Game iig darna uu!!");
